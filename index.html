@@ -42,31 +42,119 @@
 
  <main>
     <!-- SECTION 1 : Hero -->
-     <section class="hero-section">
+     <section id="hero" class="hero-section">
       <div class="text">
         <h2>Hi, I'm Suraj 👋</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde recusandae sint saepe illum, culpa reiciendis autem. Omnis corporis itaque iusto quae, ullam molestias, repellendus vitae non eius impedit iste et voluptates necessitatibus nulla aperiam veritatis nam doloribus quos totam doloremque dolorem error. Necessitatibus reiciendis, labore praesentium deleniti eaque mollitia molestias?</p>
+        <h4>Full Stack Web Developer | BCA Graduate | Jamshedpur, Jharkhand</h4>
+        <p>I'm a passionate web developer with hands-on experience in building responsive and functional web applications using HTML, CSS, and JavaScript. I've built real-world projects, completed a full-stack internship, and I'm constantly learning and growing. I love turning ideas into clean, working products.</p>
+        
         <div class="links">
           <a href="#skills">
-            <span>Skills</span>
+         <i class="fa-solid fa-code"></i>
+          <span>Skills</span>
           </a>
+
+          <a href="#testimony">
+         <i class="fa-solid fa-pen"></i>
+          <span>Testimony</span>
+          </a>
+
           <a href="#contact">
-            <span>Contact Me</span>
+         <i class="fa-solid fa-envelope"></i>
+          <span>Contact</span>
           </a>
+
         </div>
       </div>
 
-      <div class="headshot"></div>
+      <div class="headshot">
+        <img src="Suraj.photo.png" alt="Suraj Kumar">
+      </div>
+
      </section>
 
     <!-- SECTION 2 : skills -->
-     <section id="skills"></section>
+     <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        <h4>HTML5 | CSS3 | JavaScript (ES6+) | Git | GitHub | SQL | C Language | VS Code | Responsive Design | DOM Manipulation | Fetch API | Async/Await | MS Excel</h4>
+
+       I work with modern web technologies to build clean, responsive, and functional interfaces. I'm continuously expanding my skill set and currently learning Node.js and backend development.
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="images/html-logo.webp" alt="HTML logo">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/css-logo.webp" alt="CSS logo">
+          <span>CSS</span>
+        </div>
+
+        <div class="cell">
+          <img src="images/javascript-logo.webp" alt="JavaScript logo">
+          <span>JavaScript</span>
+        </div>
+
+        <div class="cell">
+          <img src="Screenshot 2026-07-06 123906.png" alt="github logo">
+          <span>GitHub</span>
+        </div>
+
+      </div>
+
+     </section>
      
     <!-- SECTION 3 : testimony -->
-     <section id="testimony"></section>
+     <section id="testimony" class="testimony-section">
+
+      <h2>Testimony</h2>
+
+      <div class="group">
+        <div class="person-details">
+          <img src="photo_2024-12-09_15-35-42.jpg" alt="Testimony headshot">
+          <p>Suraj Kumar</p>
+          <p>Full Stack Web Developer</p>
+
+        </div>
+
+        <div class="text">
+          "I believe in writing clean, readable code and building projects that solve real problems. Every project I build is an opportunity to learn something new — whether it's integrating an API, improving UI/UX, or optimising for performance. I take feedback seriously and always aim to deliver quality work."
+        </div>
+      </div>
+
+     </section>
 
     <!-- SECTION 4 : Contact -->
-     <section id="contact"></section>
+     <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+      <div class="group">
+        <div class="text">
+        I'm currently open to full-time opportunities, internships, and freelance projects. Whether you have a project in mind or just want to connect — feel free to reach out. I'll get back to you as soon as possible.
+        <pre>📧 suraj09888888@gmail.com
+📍 Jamshedpur, Jharkhand
+🔗 <a href="https://linkedin.com/in/suraj-kumar-8ae" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+💻  <a href="mailto:suraj09888888@gmail.com" target="_blank" rel="noopener noreferrer">suraj09888888@gmail.com</a></pre>
+        </div>
+        
+        <form>
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Name" id="name" >
+
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Email" id="email" >
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+
+          <button type="submit">Submit</button>
+
+        </form>
+
+      </div>
+     </section>
  </main>
     
 </body>
